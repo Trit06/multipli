@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git -C \"D:/Synchro/Documents/CLAUDE CODE/multipli-magique\" status)",
+      "Bash(ls -la \"D:/Synchro/Documents/CLAUDE CODE/multipli-magique/.git\" 2>&1 | head -5; echo \"---\"; ls -la \"D:/Synchro/Documents/CLAUDE CODE/.git\" 2>&1 | head -5)",
+      "Bash(git --version)",
+      "Bash(git config *)",
+      "Bash(git init *)",
+      "Bash(git branch *)",
+      "Bash(git remote *)",
+      "Bash(git add *)"
+    ]
+  }
+}
